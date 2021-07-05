@@ -8,3 +8,11 @@ function positiveSum(arr) {
     }
     return total
 }
+
+// option #2
+
+function positiveSum(arr) {
+    let newArr = arr.filter( val => val > 0)
+    let x = newArr.reduce((a, b) => a + b, 0)
+    return x
+  }
