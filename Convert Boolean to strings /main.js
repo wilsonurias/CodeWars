@@ -1,4 +1,4 @@
-function boolToWord( bool ){
+function boolToString bool ){
     if (bool == true) {
         return 'Yes'
     }else{
