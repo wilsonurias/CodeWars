@@ -59,4 +59,3 @@ function greet(language) {
   } else{
     return greeting.english
   }
-}
